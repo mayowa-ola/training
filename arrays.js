@@ -3,8 +3,7 @@
 let names = ['Mayowa', 'Isaac', 'Omose', 'John', 'Mary']; //Arrays are string
 let different = ['John', 2 , true, null, undefined, 'lagos', ...names ] //spread operator
 
-let combined = names.concat(different)
-
+let combined = names.concat(different);
 // Length
 
 console.log('This is : ', names[names.length - 1]);
